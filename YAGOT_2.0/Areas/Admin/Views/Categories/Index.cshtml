@@ -1,0 +1,46 @@
+@model YAGOT_2._0.Services.ViewModels
+@{
+    ViewData["Title"] = "إدارة التصنيفات";
+}
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+    <h1 style="margin: 0;">إدارة التصنيفات</h1>
+    <a asp-action="Create" class="btn-gold">+ إضافة تصنيف جديد</a>
+</div>
+
+@if(TempData["Error"] != null)
+{
+    <div style="background-color: #441a1a; color: #f04040; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #662020;">
+        @TempData["Error"]
+    </div>
+}
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+    @foreach(var cat in Model.Categories)
+    {
+        var productCount = Model.Products.Count(p => p.Categoryid == cat.Id);
+        <div style="background-color: var(--dark-surface); border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; transition: border-color 0.3s;">
+            @if(!string.IsNullOrEmpty(cat.Imageurl))
+            {
+                <img src="@Url.Content("~/" + cat.Imageurl)" alt="@cat.Name" style="width: 100%; height: 160px; object-fit: cover;" />
+               
+            }
+            else
+            {
+                <div style="width: 100%; height: 160px; background-color: var(--darker-bg); display: flex; align-items: center; justify-content: center; color: var(--gray-text);">🏷️</div>
+            }
+            <div style="padding: 20px;">
+                <h3 style="margin: 0 0 8px 0;">@cat.Name</h3>
+                <p style="color: var(--gray-text); font-size: 0.9rem; margin: 0 0 10px 0;">@cat.Description</p>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span style="color: var(--primary-gold); font-size: 0.9rem;">@productCount منتج</span>
+                    <form asp-action="Delete" asp-route-id="@cat.Id" method="post" style="margin:0;" onsubmit="return confirm('هل أنت متأكد من حذف هذا التصنيف ' + '@cat.Name' + '?');">
+                        <button type="submit" class="btn-danger btn-sm">حذف</button>
+                        <a asp-action="Edit" asp-route-id="@cat.Id" class="btn-gold btn-sm">تعديل</a>
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+    }
+</div>

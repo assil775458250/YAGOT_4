@@ -1,0 +1,40 @@
+@model IEnumerable<User>
+
+@{
+    ViewData["Title"] = "إدارة المستخدمين";
+}
+
+<h1 style="margin-bottom: 30px;">إدارة المستخدمين</h1>
+
+<table class="admin-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>الاسم</th>
+            <th>رقم الجوال</th>
+            <th>الدور</th>
+            <th>تاريخ التسجيل</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var user in Model)
+    {
+        <tr>
+            <td>@user.Id</td>
+            <td>@user.Name</td>
+            <td>@user.Phone</td>
+            <td>
+                @if(user.Role == "Admin")
+                {
+                    <span class="badge badge-shipped">مدير</span>
+                }
+                else
+                {
+                    <span class="badge badge-pending">زبون</span>
+                }
+            </td>
+            <td>@user.Createdat.ToString()</td>
+        </tr>
+    }
+    </tbody>
+</table>

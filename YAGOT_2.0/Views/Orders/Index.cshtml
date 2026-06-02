@@ -1,0 +1,56 @@
+@model IEnumerable<YAGOT_2._0.Models.Order>
+
+@{
+    ViewData["Title"] = "طلباتي";
+}
+
+<h1 style="border-bottom: 1px solid var(--border-color); padding-bottom: 20px; margin-bottom: 30px;">طلباتي</h1>
+
+@if(Model.Any())
+{
+    @foreach(var order in Model)
+    {
+        string StateARB = order.Status switch
+        {
+            "Pending" => "قيد الانتظار",
+            "Processed" => "قيد المعالجة",
+            "Shipped" => "تم الشحن",
+            "Delivered" => "تم التوصيل",
+            "Cancelled" => "ملغي",
+            "Refunded" => "مسترد",
+            _ => order.Status
+        };
+        <div style="background-color: var(--dark-surface); border: 1px solid var(--border-color); border-radius: 8px; padding: 25px; margin-bottom: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <div>
+                    <span style="color: var(--gray-text);">رقم التتبع:</span>
+                    <strong style="color: var(--primary-gold); margin-right: 10px;">@order.Trackingnumber</strong>
+                </div>
+                <span class="badge badge-@order.Status.ToLower()" style="display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.85rem;">@StateARB</span>
+            </div>
+            <div style="border-top: 1px solid var(--border-color); padding-top: 15px;">
+                @foreach(var item in order.Orderitems)
+                {
+                    <div style="display: flex; justify-content: space-between; padding: 8px 0; color: var(--gray-text);">
+                        <span>@item.Product?.Name × @item.Quantity</span>
+                        <span>@((item.Quantity * item.Unitprice) + " " + "ر.س")</span>
+                    </div>
+                }
+            </div>
+            <div style="border-top: 1px solid var(--border-color); padding-top: 15px; display: flex; justify-content: space-between; font-weight: bold;">
+                <span>الإجمالي:</span>
+                <span style="color: var(--primary-gold);">@order.Totalamount ر.س</span>
+            </div>
+            <div style="color: var(--gray-text); font-size: 0.85rem; margin-top: 10px;">
+                @order.Orderdate.ToString()
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div style="text-align: center; padding: 60px 0;">
+        <p style="color: var(--gray-text); font-size: 1.2rem; margin-bottom: 30px;">لا يوجد لديك طلبات سابقة.</p>
+        <a asp-controller="Products" asp-action="Index" class="btn-outline">تصفح المنتجات</a>
+    </div>
+}

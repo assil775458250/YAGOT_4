@@ -1,0 +1,157 @@
+@{
+    ViewData["Title"] = "بوابة الدخول";
+    var returnUrl = ViewData["ReturnUrl"] as string ?? "/";
+}
+<CENTER>
+<div class="container auth-page py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card shadow-sm border-0 auth-card">
+                <div class="card-body p-4">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <div>
+                                <h2 class="mb-1" style="font-size:2rem;font-weight:900;">بوابة الدخول</h2>
+                                <p class="text-muted mb-0 format_input_login">سجل دخولك أو أنشئ حساب جديد بسهولة.</p>
+                        </div>
+                        <div class="btn-group auth-toggle" role="group" aria-label="Toggle auth panels">
+                                <button type="button" class="btn btn-gold active format_lable_login" id="loginToggle">
+                                    تسجيل
+                                الدخول</button>
+                                <button type="button" class="btn btn-outline format_lable_login" id="registerToggle">حساب جديد</button>
+                            </div>
+                        </div>
+
+                        <div id="errorSummary" class="alert alert-danger d-none"></div>
+
+                        @if (!ViewData.ModelState.IsValid)
+                        {
+                            <div id="serverErrors" class="alert alert-danger">
+                                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                {
+                                    <div>@error.ErrorMessage</div>
+                                }
+                            </div>
+                        }
+
+                        <div id="loginPanel" class="auth-panel">
+                            <form asp-action="Login" asp-controller="Account" method="post" novalidate>
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="returnUrl" value="@returnUrl" />
+                                <div class="mb-3">
+                                    <label class="form-label format_lable_login">رقم الجوال</label>
+                                    <input name="Phone" placeholder="7xxxxxxxx" class="format_input_login" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label format_lable_login">كلمة المرور</label>
+                                    <input name="Password" type="password" placeholder="********" class="format_input_login"
+                                           required />
+                                </div>
+                                <button type="submit" style="padding:6px 30px;font-size:2rem;font-weight:900;margin-top:20px;margin-bottom:5px;border-radius:10px;background:green;color:white">دخول</button>
+                            </form>
+                        </div>
+
+                        <div id="registerPanel" class="auth-panel d-none">
+                            <form asp-action="Register" asp-controller="Account" method="post" novalidate>
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="returnUrl" value="@returnUrl" />
+                                <div class="mb-3">
+                                    <label class="form-label format_lable_login">الاسم الكامل</label>
+                                    <input name="Name" class="form-control format_input_login" placeholder="اسمك الكامل" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label format_lable_login">رقم الجوال</label>
+                                    <input name="Phone" class="form-control format_input_login" placeholder="0xxxxxxxx" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label format_lable_login">كلمة المرور</label>
+                                    <input name="Password" type="password" class="form-control format_input_login" placeholder="********"
+                                           required />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label format_lable_login">تأكيد كلمة المرور</label>
+                                    <input name="ConfirmPassword" type="password" class="form-control format_input_login"
+                                           placeholder="********" required />
+                                </div>
+                                <button type="submit" class="btn btn-success w-100" style="padding:6px 30px;font-size:2rem;font-weight:900;margin-top:20px;margin-bottom:5px;border-radius:10px;background:green;color:white">إنشاء حساب</button>
+                            </form>
+                        </div>
+
+                        <div class="text-center text-muted mt-4 small">سيتم الاحتفاظ بتسجيل دخولك لمدة 7 أيام مع تجديد
+                            تلقائي للكوكي.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</CENTER>
+        @section Styles {
+            <style>
+                .auth-page {
+                    min-height: calc(100vh - 100px);
+                }
+
+                .auth-card {
+                    border-radius: 18px;
+                }
+
+                .auth-toggle .btn {
+                    min-width: 140px;
+                }
+
+                .auth-panel {
+                    transition: opacity 0.3s ease, transform 0.3s ease;
+                }
+
+                .auth-panel.d-none {
+                    display: none !important;
+                }
+
+                @@media (max-width: 576px) {
+                    .auth-toggle {
+                        flex-wrap: wrap;
+                    }
+
+                    .auth-toggle .btn {
+                        width: 100%;
+                    }
+                }
+            </style>
+
+        }
+
+        @section Scripts {
+            <script>
+                (function () {
+                    const loginToggle = document.getElementById('loginToggle');
+                    const registerToggle = document.getElementById('registerToggle');
+                    const loginPanel = document.getElementById('loginPanel');
+                    const registerPanel = document.getElementById('registerPanel');
+                    const errorSummary = document.getElementById('errorSummary');
+
+                    function setActive(panelName) {
+                        loginToggle.classList.toggle('active', panelName === 'login');
+                        registerToggle.classList.toggle('active', panelName === 'register');
+                        loginPanel.classList.toggle('d-none', panelName !== 'login');
+                        registerPanel.classList.toggle('d-none', panelName !== 'register');
+                    }
+
+                    loginToggle.addEventListener('click', function () {
+                        setActive('login');
+                        errorSummary.classList.add('d-none');
+                    });
+
+                    registerToggle.addEventListener('click', function () {
+                        setActive('register');
+                        errorSummary.classList.add('d-none');
+                    });
+
+                    setActive('login');
+
+                    const serverErrors = document.querySelectorAll('.validation-summary-errors li');
+                    if (serverErrors.length) {
+                        errorSummary.innerHTML = Array.from(serverErrors).map(e => `<div>${e.textContent}</div>`).join('');
+                        errorSummary.classList.remove('d-none');
+                    }
+                })();
+            </script>
+        }

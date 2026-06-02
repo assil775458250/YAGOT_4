@@ -1,0 +1,41 @@
+@model YAGOT_2._0.Models.Cart?
+
+@{
+    decimal total = Model?.Cartitems?.Sum(i => i.Quantity * (i.Product?.Price ?? 0)) ?? 0;
+}
+
+@if (Model?.Cartitems != null && Model.Cartitems.Any())
+{
+    <div style="display:flex;flex-direction:column;gap:12px;">
+        @foreach (var item in Model.Cartitems)
+        {
+            <div class="cart-drawer-item">
+                <img src="@(item.Product?.Imageurl ?? "/images/placeholder-product.svg")" alt="" onerror="this.src='/images/placeholder-product.svg'" />
+                <div class="cart-drawer-item__meta">
+                    <p class="cart-drawer-item__title">@item.Product?.Name</p>
+                    <span style="color:var(--gray-text);font-size:0.85rem;">الكمية: @item.Quantity</span>
+                </div>
+                <div style="text-align:left;">
+                    <div class="cart-drawer-item__price">@((item.Quantity * (item.Product?.Price ?? 0)).ToString("N0")) ر.س</div>
+                    <form asp-controller="Cart" asp-action="Remove" method="post" style="margin-top:6px;">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="cartItemId" value="@item.Id" />
+                        <button type="submit" class="btn-outline" style="padding:4px 10px;font-size:0.8rem;">إزالة</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="cart-drawer__footer" style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border-color);">
+        <div class="cart-drawer__total">
+            <span>الإجمالي</span>
+            <span>@total.ToString("N0") ر.س</span>
+        </div>
+        <a href="/Cart/Index" class="btn-gold" style="width:100%;text-align:center;">عرض السلة والدفع</a>
+    </div>
+}
+else
+{
+    <p style="color:var(--gray-text);text-align:center;padding:2rem 0;">السلة فارغة.</p>
+    <a href="/Products/Index" class="btn-outline" style="width:100%;text-align:center;">تصفح المنتجات</a>
+}

@@ -1,0 +1,59 @@
+@{
+    ViewData["Title"] = "لوحة التحكم";
+}
+@model List<YAGOT_2._0.Models.Order>
+
+<h1 style="margin-bottom: 30px;">لوحة التحكم</h1>
+
+<div class="stat-cards">
+    <div class="stat-card">
+        <div class="number">@ViewBag.TotalProducts</div>
+        <div class="label">المنتجات</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">@ViewBag.TotalOrders</div>
+        <div class="label">الطلبات</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">@ViewBag.TotalUsers</div>
+        <div class="label">المستخدمين</div>
+    </div>
+    <div class="stat-card">
+        <div class="number">@(((decimal)ViewBag.TotalRevenue)+ "ر.س")</div>
+        <div class="label">الإيرادات</div>
+    </div>
+</div>
+
+<h2 style="margin-top: 40px; margin-bottom: 20px;">آخر الطلبات</h2>
+@if(Model.Any())
+{
+    <table class="admin-table">
+        <thead><tr><th>#</th><th>رقم التتبع</th><th>الإجمالي</th><th>الحالة</th><th>التاريخ</th></tr></thead>
+        <tbody>
+        @foreach(var order in Model.OrderByDescending(o => o.Orderdate).Take(5))
+        {
+                string StateARB = order.Status switch
+                {
+                    "Pending" => "قيد الانتظار",
+                    "Processed" => "قيد المعالجة",
+                    "Shipped" => "تم الشحن",
+                    "Delivered" => "تم التوصيل",
+                    "Cancelled" => "ملغي",
+                    "Refunded" => "مسترد",
+                    _ => order.Status
+                };
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.Trackingnumber</td>
+                <td style="color: var(--primary-gold);">@order.Totalamount ر.س</td>
+                    <td><span class="badge badge-@order.Status.ToLower()">@StateARB</span></td>
+                <td>@order.Orderdate.ToString()</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p style="color: var(--gray-text);">لا توجد طلبات بعد.</p>
+}

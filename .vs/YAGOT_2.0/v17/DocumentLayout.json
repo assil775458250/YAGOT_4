@@ -1,0 +1,829 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\models\\neondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\models\\neondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\products\\trash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\products\\trash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\services\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\services\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\models\\categoryvw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\models\\categoryvw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\account\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\account\\auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\orders\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\orders\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\services\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\services\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\models\\productvw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\models\\productvw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\services\\categoryserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\services\\categoryserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|f:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\asp.net\\yagot_pr\\yagot_4\\yagot_2.0\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2D9C88B-06B0-409E-A1BD-3A50D8450A72}|YAGOT_2.0\\YAGOT_2.0.csproj|solutionrelative:yagot_2.0\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Search\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Search\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T19:28:54.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "trash.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\trash.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\trash.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\trash.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\trash.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T05:51:39.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:44:29.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Services\\ProductService.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\ProductService.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:37:42.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Controllers\\ProductsController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA4wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:42:27.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NeondbContext.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\NeondbContext.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Models\\NeondbContext.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\NeondbContext.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Models\\NeondbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA3wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:21:22.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Products\\Details.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:46:02.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:48:09.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAUwKAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:47:56.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Image.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\Image.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Services\\Image.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\Image.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Services\\Image.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAIA4wEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:36:26.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:45:47.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:48:07.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwCgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:24:04.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowCcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T12:53:16.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:44:32.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:47:49.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Controllers\\CartController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\CartController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:23:51.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Program.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Program.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Program.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:51:58.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\appsettings.json",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\appsettings.json",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\appsettings.json",
+              "RelativeToolTip": "YAGOT_2.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-02T09:51:12.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Services\\CartService.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\CartService.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Services\\CartService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:34:32.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryVW.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\CategoryVW.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Models\\CategoryVW.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\CategoryVW.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Models\\CategoryVW.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:41:21.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Products\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:46:13.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAACmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:45:45.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Auth.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Account\\Auth.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Account\\Auth.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Account\\Auth.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Account\\Auth.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T12:49:09.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:43:45.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Orders\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Orders\\Confirmation.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Orders\\Confirmation.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Orders\\Confirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:45:10.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ViewModels.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\ViewModels.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Services\\ViewModels.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\ViewModels.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Services\\ViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:38:04.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "site.css",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\wwwroot\\css\\site.css",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "YAGOT_2.0\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAADUBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-02T18:21:24.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductVW.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\ProductVW.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Models\\ProductVW.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\ProductVW.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Models\\ProductVW.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:41:38.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:47:05.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T22:33:15.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:48:04.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Services\\OrderService.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\OrderService.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Services\\OrderService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAxwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:36:52.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Controllers\\OrdersController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA4wDkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:41:45.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Orderitem.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\Orderitem.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Models\\Orderitem.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\Orderitem.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Models\\Orderitem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T20:41:41.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:47:16.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Models\\Cart.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\Cart.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:27:01.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:46:39.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\User.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Models\\User.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Models\\User.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:21:48.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T13:55:33.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:48:31.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:47:33.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:47:25.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T10:47:04.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:46:36.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:45:02.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T10:25:00.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CategoryServer.cs",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\CategoryServer.cs",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Services\\CategoryServer.cs",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Services\\CategoryServer.cs",
+              "RelativeToolTip": "YAGOT_2.0\\Services\\CategoryServer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T09:35:36.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Properties\\launchSettings.json",
+              "RelativeToolTip": "YAGOT_2.0\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-02T09:50:34.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "YAGOT_2.0\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "F:\\(\u2299\u2013\u0627\u0644\u0643\u0646\u0632\u2013\u2299)\uD83C\uDFC6\\university\\\u0627\u0644\u0627\u0633\u0627\u0633\\\u0627\u0644\u0645\u0634\u0627\u0631\u064A\u0639\\progect \uD83D\uDCA5\uD83D\uDCAF\\ASP.net\\YAGOT_PR\\YAGOT_4\\YAGOT_2.0\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "YAGOT_2.0\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T09:46:53.893Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

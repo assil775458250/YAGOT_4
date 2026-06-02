@@ -1,0 +1,89 @@
+@model YAGOT_2._0.Services.ViewModels
+@{
+    ViewData["Title"] = "الرئيسية | ياقوت للمجوهرات";
+    var categories = Model.Categories.ToList();
+    int? selectedCategoryId = ViewBag.SelectedCategoryId as int?;
+    string? selectedCategoryName = ViewBag.SelectedCategoryName as string;
+    var heroImage = Url.Content("~/images/yagot.png");
+}
+
+<section class="glass-effect" style="margin: 0 0 2.5rem; text-align: center; padding: clamp(2rem, 6vw, 4rem) clamp(1rem, 4vw, 2rem);">
+    <div style="max-width: 420px; margin: 0 auto;">
+        <img src="~/images/yagot.png" alt="ياقوت" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+    </div>
+    <p style="font-size: clamp(1rem, 2.2vw, 1.25rem); color: var(--gray-text); max-width: 38rem; margin: 1.25rem auto 0; font-style: italic;">
+        حيث تجتمع عراقة الشرق مع حداثة التصميم.. قطع فنية تروي قصة أناقتك.
+    </p>
+    <div style="margin-top: 1.5rem;">
+        <a href="#featured" class="btn-gold">استكشف المجموعة</a>
+    </div>
+</section>
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+    <h2 style="font-size: clamp(1.25rem, 2.4vw, 1.85rem); margin: 0; color: var(--primary-gold);">تسوق حسب التصنيف</h2>
+</div>
+
+@if (categories != null && categories.Any())
+{
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: clamp(1rem, 2vw, 1.5rem); margin-bottom: 3rem;">
+        @foreach (var cat in categories)
+        {
+            <a asp-controller="Products" asp-action="Index" asp-route-categoryId="@cat.Id" style="text-decoration: none; color: inherit;">
+                <div class="glass-effect" style="text-align: right; border: @(selectedCategoryId == cat.Id ? "1px solid var(--primary-gold)" : "1px solid var(--glass-border)"); position: relative; overflow: hidden;">
+                    <div style="position: relative; border-radius: 12px; height: 200px; margin-bottom: 12px; overflow: hidden;">
+                        @if (!string.IsNullOrEmpty(cat.Imageurl))
+                        {
+                            <img src="@Url.Content("~/" + cat.Imageurl)" alt="@cat.Name" onerror="this.onerror=null;this.src='/images/placeholder-product.svg';"
+                                 style="width: 100%; height: 100%; object-fit: cover;" />
+                        }
+                        else
+                        {
+                            <div style="width: 100%; height: 100%; background: var(--darker-bg); display: flex; align-items: center; justify-content: center; font-size: 3rem;">🏷️</div>
+                        }
+                        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.75), transparent); padding: 14px;">
+                            <h3 style="margin: 0; font-size: 1.2rem; color: #fff;">@cat.Name</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+}
+
+<hr style="border: none; border-top: 1px solid var(--border-color); margin: 2rem 0;" />
+
+<h2 id="featured" style="font-size: clamp(1.25rem, 2.4vw, 1.85rem); margin-bottom: 1.25rem; color: var(--primary-gold);">
+    @(selectedCategoryId.HasValue ? $"بضائع تصنيف: {selectedCategoryName}" : "أحدث القطع الفنية")
+</h2>
+
+@if (Model.Products != null && Model.Products.Any())
+{
+    var productsTop = Model.Products
+        .Where(p => p.Stockquantity > 0)
+        .OrderByDescending(p => p.Createdat)
+        .Take(5)
+        .ToList();
+    <div class="products-grid">
+        @foreach (var item in productsTop)
+        {
+            <div class="product-card glass-effect">
+                <div style="position: relative; border-radius: 12px; overflow: hidden; margin-bottom: 14px; height: 220px;">
+                    <img src="@item.Imageurl" alt="@item.Name" onerror="this.onerror=null;this.src='/images/placeholder-product.svg';"
+                         style="width: 100%; height: 100%; object-fit: cover;" />
+                </div>
+                <h3 style="font-size: 1.15rem; margin: 0 0 8px; color: var(--light-text);">@item.Name</h3>
+                <p style="color: var(--gray-text); font-size: 0.9rem; margin: 0 0 14px; height: 2.7em; overflow: hidden; line-height: 1.4;">@item.Description</p>
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+                    <div class="product-price" style="margin: 0;">@item.Price.ToString("N0") ر.س</div>
+                    <a asp-controller="Products" asp-action="Details" asp-route-id="@item.Id" class="btn-outline" style="padding: 8px 16px; font-size: 0.85rem;">التفاصيل</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="glass-effect" style="padding: 2.5rem; text-align: center; color: var(--gray-text);">
+        <p style="margin: 0;">لا توجد قطع معروضة في هذا التصنيف حالياً.</p>
+    </div>
+}

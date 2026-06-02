@@ -1,0 +1,212 @@
+@model IEnumerable<YAGOT_2._0.Models.Order>
+@using YAGOT_2._0.Models
+
+@{
+    ViewData["Title"] = "إدارة الطلبات";
+    var current = ViewBag.StatusFilter as string ?? OrderStatusFilters.All;
+}
+
+<h1 style="margin-bottom: 20px;">إدارة الطلبات</h1>
+
+@{
+    var tabs = new (string Key, string Label)[]
+    {
+        (OrderStatusFilters.All, "الكل"),
+        (nameof(OrderStatus.Pending), "قيد الانتظار"),
+        (nameof(OrderStatus.Processed), "قيد المعالجة"),
+        (nameof(OrderStatus.Shipped), "تم الشحن"),
+        (nameof(OrderStatus.Delivered), "تم التوصيل"),
+        (nameof(OrderStatus.Cancelled), "ملغي"),
+        (nameof(OrderStatus.Refunded), "مسترد")
+    };
+}
+
+<div class="order-status-tabs" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;">
+    @foreach (var tab in tabs)
+    {
+        var isActive = current.Equals(tab.Key, StringComparison.OrdinalIgnoreCase);
+        <a asp-action="Index" asp-route-status="@(tab.Key == OrderStatusFilters.All ? null : tab.Key)"
+           class="order-status-tab @(isActive ? "active" : "")">@tab.Label</a>
+    }
+</div>
+
+@if (Model.Any())
+{
+    <div class="orders-vertical-container">
+        @foreach (var order in Model)
+        {
+            string stateArb = order.Status switch
+            {
+                "Pending" => "قيد الانتظار",
+                "Processed" => "قيد المعالجة",
+                "Shipped" => "تم الشحن",
+                "Delivered" => "تم التوصيل",
+                "Cancelled" => "ملغي",
+                "Refunded" => "مسترد",
+                _ => order.Status
+            };
+
+            <div class="order-card">
+                <div class="data-row">
+                    <span class="data-label"># المعرف:</span>
+                    <span class="data-value">@order.Id</span>
+                </div>
+
+                <div class="data-row">
+                    <span class="data-label">رقم التتبع:</span>
+                    <span class="data-value" style="color: var(--primary-gold);">@order.Trackingnumber</span>
+                </div>
+
+                <div class="data-row">
+                    <span class="data-label">العميل:</span>
+                    <span class="data-value">@(order.User?.Name ?? "غير معروف")</span>
+                </div>
+
+                <div class="data-row">
+                    <span class="data-label">الإجمالي:</span>
+                    <span class="data-value">@order.Totalamount.ToString("C")</span>
+                </div>
+
+                <div class="data-row">
+                    <span class="data-label">الحالة:</span>
+                    <span class="data-value">
+                        <span class="badge badge-@order.Status.ToLowerInvariant()">@stateArb</span>
+                    </span>
+                </div>
+
+                <div class="data-row">
+                    <span class="data-label">التاريخ:</span>
+                    <span class="data-value">@order.Orderdate.ToString()</span>
+                </div>
+
+                <div class="data-row">
+                    <span class="data-label">تاريخ الحالة:</span>
+                    <span class="data-value">@(order.TimeState?.ToString() ?? "—")</span>
+                </div>
+
+                <div class="data-row">
+                    <span class="data-label"> المنتجات المطلوبة:</span>
+                    <table style="border: 2px solid var(--primary-gold); border-collapse: collapse;">
+                        <tr>
+                            <th style="border: 1px solid var(--primary-gold); padding: 10px;text-align:center">اسم المنتج</th>
+                            <th style="border: 1px solid var(--primary-gold); padding: 10px;text-align:center">الكمية</th>
+                        </tr>
+                        @foreach (var orderItem in order.Orderitems)
+                        {
+                            <tr>
+                                <td style="border: 1px solid var(--primary-gold); padding: 10px;text-align:center">@orderItem.Product?.Name</td>
+                                <td style="border: 1px solid var(--primary-gold); padding: 10px;text-align:center">@orderItem.Quantity</td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+
+                <div class="status-update-form">
+                    <form asp-action="UpdateStatus" method="post">
+                        <input type="hidden" name="id" value="@order.Id" />
+                        <input type="hidden" name="returnStatus" value="@current" />
+                        <label class="data-label mb-1">تحديث الحالة:</label>
+                        <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+                            <select name="status" class="status-select">
+                                @if (order.Status == "Pending")
+                                {
+                                    <option value="Pending" selected>قيد الانتظار</option>
+                                }
+                                else
+                                {
+                                    <option value="Pending">قيد الانتظار</option>
+                                }
+                                @if (order.Status == "Processed")
+                                {
+                                    <option value="Processed" selected>قيد المعالجة</option>
+                                }
+                                else
+                                {
+                                    <option value="Processed">قيد المعالجة</option>
+                                }
+                                @if (order.Status == "Shipped")
+                                {
+                                    <option value="Shipped" selected>تم الشحن</option>
+                                }
+                                else
+                                {
+                                    <option value="Shipped">تم الشحن</option>
+                                }
+                                @if (order.Status == "Delivered")
+                                {
+                                    <option value="Delivered" selected>تم التوصيل</option>
+                                }
+                                else
+                                {
+                                    <option value="Delivered">تم التوصيل</option>
+                                }
+                                @if (order.Status == "Cancelled")
+                                {
+                                    <option value="Cancelled" selected>ملغي</option>
+                                }
+                                else
+                                {
+                                    <option value="Cancelled">ملغي</option>
+                                }
+                                @if (order.Status == "Refunded")
+                                {
+                                    <option value="Refunded" selected>مسترد</option>
+                                }
+                                else
+                                {
+                                    <option value="Refunded">مسترد</option>
+                                }
+                            </select>
+                            <button type="submit" class="btn-gold btn-sm">تحديث</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p style="color: var(--gray-text);">لا توجد طلبات في هذا التصنيف.</p>
+}
+
+<style>
+    .order-status-tab {
+        padding: 8px 16px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        border: 1px solid var(--border-color);
+        color: var(--light-text);
+        background: var(--dark-surface);
+        transition: all 0.25s ease;
+    }
+
+    .order-status-tab:hover {
+        border-color: var(--primary-gold);
+        color: var(--primary-gold);
+    }
+
+    .order-status-tab.active {
+        background: var(--primary-gold);
+        color: var(--dark-bg);
+        border-color: var(--primary-gold);
+    }
+
+    .order-card {
+        background-color: var(--dark-surface);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 15px;
+        color: var(--light-text);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+    }
+
+    .data-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+</style>

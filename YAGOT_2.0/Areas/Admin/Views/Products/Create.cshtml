@@ -1,0 +1,82 @@
+@model ProductVW
+
+@{
+    ViewData["Title"] = "إضافة منتج جديد | لوحة التحكم";
+}
+
+<div class="glass-effect" style="max-width: 800px; margin: 0 auto; padding: 40px;">
+    <h1 style="margin-bottom: 30px; color: var(--primary-gold); font-size: 1.8rem; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+        إضافة قطعة جديدة للمجموعة
+    </h1>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="All" style="color: #ff6b6b; margin-bottom: 20px; padding: 15px;  border-radius: 8px; border: 1px solid  color: var(--primary-gold)"></div>
+        
+        <div style="margin-bottom: 25px;">
+            <label asp-for="Name" class="FontSizeForm" style="display: block; margin-bottom: 8px; color: var(--primary-gold); font-weight: bold;">اسم المنتج</label>
+            <input asp-for="Name" class="glass-effect FontSizeForm" style="width: 100%; padding: 12px; background: rgba(255,255,255,0.02); color: white;" />
+            <span asp-validation-for="Name" style="color: #ff6b6b; font-size: 0.85rem;"></span>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <label asp-for="Description" class="FontSizeForm" style="display: block; margin-bottom: 8px; color: var(--primary-gold); font-weight: bold;">الوصف</label>
+            <textarea asp-for="Description" rows="4" class="glass-effect FontSizeForm" placeholder="اكتب وصفاً جذاباً للقطعة..." style="width: 100%; padding: 12px; background: rgba(255,255,255,0.02); color: white;"></textarea>
+            <span asp-validation-for="Description" style="color: #ff6b6b; font-size: 0.85rem;"></span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px;">
+            <div>
+                <label asp-for="Price" class="FontSizeForm" style="display: block; margin-bottom: 8px; color: var(--primary-gold); font-weight: bold;">السعر</label>
+                <input asp-for="Price" type="number" step="0.01" value="0" class="glass-effect FontSizeForm" style="width: 100%; padding: 12px; background: rgba(255,255,255,0.02); color: white;" />
+                <span asp-validation-for="Price" style="color: #ff6b6b; font-size: 0.85rem;"></span>
+            </div>
+            <div>
+                <label asp-for="Stockquantity" class="FontSizeForm" style="display: block; margin-bottom: 8px; color: var(--primary-gold); font-weight: bold;">الكمية</label>
+                <input asp-for="Stockquantity" type="number" value="1" class="glass-effect FontSizeForm" style="width: 100%; padding: 12px; background: rgba(255,255,255,0.02); color: white;" />
+                <span asp-validation-for="Stockquantity" style="color: #ff6b6b; font-size: 0.85rem;"></span>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <label asp-for="Categoryid" class="FontSizeForm" style="display: block; margin-bottom: 8px; color: var(--primary-gold); font-weight: bold;">الصنف</label>
+            <select asp-for="Categoryid" asp-items="@ViewBag.Categoryid" class="glass-effect FontSizeForm" style="width: 100%; padding: 12px; background: rgba(25,25,25,0.9); color: white;">
+                <option value="">-- اختر التصنيف المناسب --</option>
+            </select>
+            <span asp-validation-for="Categoryid" style="color: #ff6b6b; font-size: 0.85rem;"></span>
+        </div>
+
+        <div style="margin-bottom: 30px; padding: 20px; background: rgba(212, 175, 55, 0.05); border-radius: 12px; border: 1px dashed var(--border-color);">
+            <label class="FontSizeForm" style="display: block; margin-bottom: 15px; color: var(--primary-gold); font-weight: bold;">صورة المنتج</label>
+            
+            <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 15px;">
+                <div style="width: 120px; height: 120px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); background: var(--darker-bg); display: flex; align-items: center; justify-content: center;">
+                    <img id="imagePreview" src="/images/placeholder-product.svg" style="width: 100%; height: 100%; object-fit: cover;" />
+                </div>
+                <div style="flex: 1;">
+                    <input asp-for="Imagefile" type="file" accept="image/*" id="imageInput" style="width: 100%; color: var(--gray-text);" required />
+                    <p style="margin: 10px 0 0 0; font-size: 0.8rem; color: var(--gray-text);">
+                        تنسيقات مدعومة: JPG, PNG, WebP. الحجم الأقصى: 10MB
+                    </p>
+                </div>
+                <span asp-validation-for="Imagefile" style="color: #ff6b6b; font-size: 0.85rem;"></span>
+
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 30px;">
+            <button type="submit" class="btn-gold" style="padding: 14px 40px; font-size: 1.1rem; border-radius: 8px;">إضافة للمتجر</button>
+            <a asp-action="Index" class="btn-outline" style="padding: 14px 40px; border-radius: 8px;">إلغاء</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('imageInput').onchange = function (evt) {
+            const [file] = this.files;
+            if (file) {
+                document.getElementById('imagePreview').src = URL.createObjectURL(file);
+            }
+        }
+    </script>
+}

@@ -1,0 +1,57 @@
+@model YAGOT_2._0.Models.Cart
+
+@{
+    ViewData["Title"] = "سلة المشتريات";
+    decimal total = Model?.Cartitems?.Sum(i => i.Quantity * (i.Product?.Price ?? 0)) ?? 0;
+}
+
+<h1 style="border-bottom: 1px solid var(--border-color); padding-bottom: 20px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: center;">
+   
+    <p style="margin: 0;">سلة المشتريات</p>
+    <a asp-action="Index" asp-controller="Products"
+       style="margin: 0; font-size: 20px; text-decoration: none;"
+       class="btn btn-outline">
+        العودة إلى المنتجات
+    </a>
+</h1>
+
+@if(Model?.Cartitems != null && Model.Cartitems.Any())
+{
+    <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px;">
+        @foreach(var item in Model.Cartitems)
+        {
+            <div style="display: flex; justify-content: space-between; align-items: center; background-color: var(--dark-surface); padding: 15px 20px; border-radius: 8px; border: 1px solid var(--border-color);">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <div style="width: 60px; height: 60px; background-color: var(--darker-bg); border-radius: 4px;"></div>
+                    <div>
+                        <h3 style="margin: 0; color: var(--light-text); font-size: 1.1rem;">@item.Product?.Name</h3>
+                        <span style="color: var(--gray-text); font-size: 0.9rem;">الكمية: @item.Quantity</span>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 30px;">
+                    <span style="color: var(--primary-gold); font-weight: bold; font-size: 1.2rem;">
+                        @((item.Quantity * (item.Product?.Price ?? 0))+" "+ "ر.س")
+                    </span>
+                    <form asp-action="Remove" method="post" style="margin: 0;">
+                        <input type="hidden" name="cartItemId" value="@item.Id" />
+                        <button type="submit" style="background: none; border: none; color: #ff4d4d; cursor: pointer; text-decoration: underline;">إزالة</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div style="background-color: var(--dark-surface); padding: 30px; border-radius: 8px; border: 1px solid var(--border-color); text-align: left;">
+        <h2 style="margin-top: 0;">الإجمالي: @total ر.س</h2>
+        <form asp-controller="Orders" asp-action="Checkout" method="post" style="margin-top: 20px;">
+            <button type="submit" class="btn-gold" style="font-size: 1.2rem; padding: 15px 40px;">إتمام الطلب والدفع</button>
+        </form>
+    </div>
+}
+else
+{
+    <div style="text-align: center; padding: 60px 0;">
+        <p style="color: var(--gray-text); font-size: 1.2rem; margin-bottom: 30px;">سلتك فارغة حالياً.</p>
+        <a asp-controller="Products" asp-action="Index" class="btn-outline">تصفح المنتجات</a>
+    </div>
+}

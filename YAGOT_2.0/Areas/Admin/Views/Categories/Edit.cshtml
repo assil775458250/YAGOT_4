@@ -1,0 +1,58 @@
+@model CategoryVW
+
+@{
+    ViewData["Title"] = "إضافة تصنيف جديد";
+}
+
+<h1 style="margin-bottom: 30px;">التعديل على صنف @Model.Name</h1>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data" style="max-width: 600px;">
+    <input asp-for="Id" type="hidden"/>
+    <input asp-for="Existingimage" type="hidden"/>
+    <div style="margin-bottom: 20px;">
+        <label asp-for="Name" class="FontSizeForm" style="display: block; margin-bottom: 8px; color: var(--primary-gold);">اسم التصنيف</label>
+        <input  class="FontSizeForm" asp-for="Name" type="text" required style="width: 100%; padding: 12px; border-radius: 4px; border: 1px solid var(--border-color); background-color: var(--dark-surface); color: var(--light-text);" />
+    </div>
+    <div style="margin-bottom: 20px;">
+        <label class="FontSizeForm" style="display: block; margin-bottom: 8px; color: var(--primary-gold);">الوصف</label>
+        <textarea class="FontSizeForm" asp-for="Description" rows="3" style="width: 100%; padding: 12px; border-radius: 4px; border: 1px solid var(--border-color); background-color: var(--dark-surface); color: var(--light-text);"></textarea>
+    </div>
+    <div style="display: flex; gap: 20px; align-items: center; margin-bottom: 15px;">
+        <div style="width: 120px; height: 120px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); background: var(--darker-bg); display: flex; align-items: center; justify-content: center;">
+            @if (!string.IsNullOrEmpty(Model.Existingimage))
+            {
+                <img id="imagePreview" src="@Url.Content("~/" + Model.Existingimage)" style="width: 100%; height: 100%; object-fit: cover;" />
+
+            }
+            else
+            {
+                <img id="imagePreview" src="~/images/products/6389130_camera_interface_movie_picture_zoom_icon.png" style="width: 100%; height: 100%; object-fit: cover;" />
+
+            }
+        </div>
+        <div style="flex: 1;">
+            <input asp-for="ImageFile" type="file" accept="image/*" id="imageInput" style="width: 100%; color: var(--gray-text);"/>
+            <p style="margin: 10px 0 0 0; font-size: 0.8rem; color: var(--gray-text);">
+                تنسيقات مدعومة: JPG, PNG, WebP. الحجم الأقصى: 10MB
+            </p>
+        </div>
+        <span asp-validation-for="ImageFile" style="color: #ff6b6b; font-size: 0.85rem;"></span>
+
+    </div>
+    <div style="display: flex; gap: 15px;">
+        <button type="submit" class="btn-gold" style="padding: 12px 30px;">حفظ التعديل</button>
+        <a asp-action="Index" class="btn-outline" style="padding: 12px 30px;">إلغاء</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        document.getElementById('imageInput').onchange = function (evt) {
+            const [file] = this.files;
+            if (file) {
+                document.getElementById('imagePreview').src = URL.createObjectURL(file);
+            }
+        }
+    </script>
+}
+

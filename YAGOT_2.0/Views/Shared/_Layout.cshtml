@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ياقوت</title>
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('theme');
+                if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+                else document.documentElement.removeAttribute('data-theme');
+            } catch (e) { }
+        })();
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+
+<body>
+    <nav class="navbar">
+        <button type="button" class="menu-toggle" aria-label="فتح القائمة" onclick="toggleNav()">☰</button>
+        <a class="brand" asp-area="" asp-controller="Home" asp-action="Index">
+            <img src="~/images/logo.png" alt="Yagot Logo" onerror="this.style.display='none'" />
+            ياقوت
+        </a>
+
+        <div class="nav-search-wrap">
+            <form asp-controller="Search" asp-action="Index" method="get" class="nav-search-form">
+                <input type="search" id="nav-search-q" name="q" autocomplete="off" placeholder="بحث عن منتج..." class="nav-search-input" maxlength="200" />
+                <button type="submit" class="nav-search-submit" aria-label="تنفيذ البحث">🔍</button>
+            </form>
+            <div id="nav-search-suggestions" class="nav-search-suggestions" hidden></div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">الرئيسية</a></li>
+            <li><a asp-area="" asp-controller="Products" asp-action="Index">المنتجات</a></li>
+            <li><a asp-area="" asp-controller="Search" asp-action="Index">بحث متقدم</a></li>
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <li><a href="/Cart/Index">السلة</a></li>
+            }
+            else
+            {
+                <li><a href="/Account/Auth?ReturnUrl=%2FCart%2FIndex">السلة</a></li>
+            }
+            <li><a asp-area="" asp-controller="Orders" asp-action="Index">طلباتي</a></li>
+        </ul>
+
+        <div class="user-actions">
+
+            <button type="button" id="theme-toggle" class="theme-toggle" aria-label="تبديل الوضع الليلي/النهاري" title="المظهر">☽</button>
+
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn-gold">لوحة الإدارة</a>
+                }
+
+                <a href="/Account/Auth" class="btn-outline">@User.Identity.Name</a>
+            }
+            else
+            {
+                <a href="/Account/Auth" class="btn-outline">تسجيل الدخول</a>
+            }
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="container"
+            style="text-align: center; padding-top: 40px; border-top: 1px solid var(--border-color); margin-top: 40px; color: var(--gray-text);">
+        &copy; @DateTime.Now.Year - ياقوت للمجوهرات الفاخرة
+    </footer>
+
+    <script>
+        function toggleNav() {
+            var navLinks = document.querySelector('.nav-links');
+            if (navLinks) {
+                navLinks.classList.toggle('show');
+            }
+        }
+    </script>
+    <script src="~/js/theme.js" asp-append-version="true"></script>
+    <script src="~/js/search.js" asp-append-version="true"></script>
+    <script>
+        if (window.yagotInitThemeControls) yagotInitThemeControls();
+        if (window.yagotSyncThemeIcon) yagotSyncThemeIcon();
+        if (window.yagotInitLiveSearch) yagotInitLiveSearch();
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
